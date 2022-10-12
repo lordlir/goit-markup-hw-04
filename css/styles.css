@@ -226,6 +226,9 @@ svg {
 .banner.section {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
 
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -234,7 +237,6 @@ svg {
     url("../images/bghero.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1600px;
   background-color: var(--dark-bg);
 }
 
@@ -305,10 +307,12 @@ svg {
 }
 
 .decor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   background-color: var(--other-bg);
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 }
 
@@ -419,8 +423,11 @@ svg {
 }
 
 .social-media {
-  display: block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
 
   fill: var(--icon-color);
@@ -455,8 +462,11 @@ svg {
 }
 
 .client-link {
-  display: block;
-  padding: 15px 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
 
   color: var(--icon-color);
   border: 1px solid var(--icon-color);
